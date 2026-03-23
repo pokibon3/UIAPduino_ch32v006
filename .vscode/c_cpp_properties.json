@@ -1,0 +1,55 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/ooe/src/UIAPduino_ch32v006/include",
+                "/Users/ooe/src/UIAPduino_ch32v006/src",
+                "/Users/ooe/.platformio/packages/framework-ch32v003fun/ch32fun",
+                "/Users/ooe/.platformio/packages/framework-ch32v003fun/extralibs",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/ooe/src/UIAPduino_ch32v006/include",
+                    "/Users/ooe/src/UIAPduino_ch32v006/src",
+                    "/Users/ooe/.platformio/packages/framework-ch32v003fun/ch32fun",
+                    "/Users/ooe/.platformio/packages/framework-ch32v003fun/extralibs",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60119",
+                "CH32V006K8",
+                "CH32V00X",
+                "CH32V00x",
+                "CH32V006",
+                "CH32V00Xx",
+                "SYSCLK_FREQ_48MHz_HSI=48000000",
+                "SYSCLK_FREQ_48MHZ_HSI=48000000",
+                "__PIO_BUILD_CH32V003FUN__",
+                "TARGET_MCU=CH32V006",
+                "MCU_PACKAGE=1",
+                "TARGET_MCU_LD=7",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "compilerPath": "/Users/ooe/.platformio/packages/toolchain-riscv/bin/riscv-wch-elf-gcc",
+            "compilerArgs": [
+                "-msmall-data-limit=0",
+                "-msave-restore",
+                "-march=rv32ec_zmmul_xw",
+                "-mabi=ilp32e",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
